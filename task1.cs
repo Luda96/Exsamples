@@ -27,6 +27,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.Write($"Введите второе числo - ");
             int b = int.Parse(Console.ReadLine()!);
             Console.WriteLine($"первое число = {a}");
+        
+         if (a>b)
+         {
+            Console.WriteLine($"a является максимальным значением {a}");
+            Console.Write($"b является минимальным значением {b}");
+         }
+         else if (a == b)
+         {
+            Console.Write($" значения равны");
+         }
+         else
+         {
+           Console.WriteLine($"a является минимальным значением {a}");
+           Console.Write($"b является максимальным значением {b}"); 
+         }
         }
     }
 }
