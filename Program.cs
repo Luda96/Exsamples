@@ -1,19 +1,4 @@
-// if (Cht0)
-// {
-//   Console.Write(" является максимальным значением а");
-// }
-// // else if (Cht1)
-// // {
-// //   Console.Write($"b = a");  
-// // }  
-// // else
-// // {
-// //   Console.Write($"b является максимальным значением b");  
-// // }  
-// Console.ReadKey();
-
-
-using System;
+﻿using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
